@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pt-60{
+    padding-top: 60px;
+}
+
+
+
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.text {
+    display: flex;
+    color: #FFFFFF;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+}
+
+.Product {
+    margin: 30px;
+}
+
+.Startup {
+    margin: 30px;
+    
+    font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31.25px;
+        letter-spacing: -0.2926828861236572px;
+        text-align: center;
+}
+
+.login {
+    margin: 30px;
+    margin-left: 256px;
+ 
+}
+
+.Sign-up { border: 0;
+    width: 100px;
+    height: 40.1px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    background: #25DAC5;
+    margin: 30px;
+}
+.log{
+    color: white;
+}
+.head {
+
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #FFFFFF;
+     
+}
+.head_1{
+    font-family: DM Sans;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 66px;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    background: #EA3223;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.gap-31{
+    gap: 31px;
+    
+}
+.j-c-c{
+    justify-content: center;
+}
+.made{
+
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.aline-item-center{
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    
+}
+.gap-32{
+    gap: 32px;
+}
+.d_none{
+    display: none;
+}
+.d__none{
+    display: block;
+}
+@media (max-width:768px) {
+    .lg-view {
+        flex-direction: column;
+         
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: #2F1893;
+        position: fixed;
+        top: 0%;
+        right: -100%;
+        z-index: 4;
+        transition: all 0.3s;
+    }
+
+    label[for="menubar"] {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+    }
+
+    label[for="menubar"] span {
+        width: 100%;
+        height: 3px;
+        background-color: aliceblue;
+        z-index: 5;
+    }
+
+    input[type="checkbox"]:checked~.lg-view {
+        right: 0;
+    }
+
+    .send-email {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        width: 350px;
+        height: 60px;
+    }
+
+    .head-email {
+        font-size: 15px;
+    }
+
+    .pragraph {
+        font-size: 10px;
+    }
+.d_none{
+    display: block;
+}
+.d__none{
+    display: none;
+}
+.gap-31{
+    gap: 31px;
+}
+.flex_col{
+    flex-direction: column;
+}
+
+.link{
+    color: #FFFFFF;
+}
+
+}
+.pro{
+    color: white;
+}
