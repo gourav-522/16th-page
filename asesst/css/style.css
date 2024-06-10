@@ -9,11 +9,12 @@
 }
 
 section {
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    
 }
 
 .container {
@@ -22,6 +23,7 @@ section {
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .pt-60{
@@ -77,6 +79,8 @@ body {
     opacity: 0px;
     background: #25DAC5;
     margin: 30px;
+        color: white;
+        cursor: pointer;
 }
 .log{
     color: white;
@@ -113,7 +117,6 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-   
     margin-top: 50px;
     margin-bottom: 50px;
     
@@ -229,4 +232,10 @@ body {
 }
 .pro{
     color: white;
+}
+
+path{
+    display: flex;
+        align-items: center;
+        justify-content: center;
 }
